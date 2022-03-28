@@ -9,27 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView{
-            NavigationLink(destination: Ch1View(), label: {
-                Text("Глава 1. Основы алгоритмитизации").foregroundColor(Color.black)
-            })
-                .navigationTitle("Алгоритмы")
-            
-        }
-        
-//        Form{
-//        Button(action: {
-//            print(10)
-//        }, label: {
-//            Text("Глава 1. Основы алгоритмитизации").foregroundColor(Color.black)
-//        })
+//        NavigationView{
+//            NavigationLink(destination: Ch1View(), label: {
+//                Text("Глава 1. Основы алгоритмитизации").foregroundColor(Color.black).padding()
+//            })
+//                .navigationTitle("Алгоритмы")
 //
-//        Button(action: {
-//            print("2")
-//        }, label: {
-//            Text("Глава 2. Численные алгоритмы").foregroundColor(Color.black)
-//        })
-//    }
+//        }
+        
+        Form{
+        Button(action: {
+            print(10)
+        }, label: {
+            Text("Глава 1. Основы алгоритмитизации").foregroundColor(Color.black)
+        })
+
+        Button(action: {
+            print("2")
+        }, label: {
+            Text("Глава 2. Численные алгоритмы").foregroundColor(Color.black)
+        })
+    }
 }
 }
 
